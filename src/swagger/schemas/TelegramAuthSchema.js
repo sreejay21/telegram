@@ -95,4 +95,12 @@ const TelegramAuthSchema = {
         type: 'boolean',
         example: false
       },
-     
+      message: {
+        type: 'string',
+        example: 'Error message'
+      }
+    }
+  }
+};
+
+module.exports = TelegramAuthSchema;
